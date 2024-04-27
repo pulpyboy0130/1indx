@@ -1,20 +1,9 @@
 export const AllDrivers: DriverConfig[] = [
   {
-    path: "onedrivetwo", // should be unique for each driver , space not allowed ,
+    path: "Ark", // should be unique for each driver , space not allowed ,
     type: "onedrive",
     refreshtoken:
-      "YOur refresh token here from https://alist.nn.ci/tool/onedrive/request.html",
-  },
-  {
-    path: "onedriveone", // should be unique for each driver , space not allowed ,
-    type: "onedrive",
-    refreshtoken:
-      "YOur refresh token here from https://alist.nn.ci/tool/onedrive/request.html",
-  },
-  {
-    path: "gdrive", // should be unique for each driver
-    type: "googledrive",
-    refreshtoken: "your_google_drive_refresh_token_here",
+      "0.AVIASKg0_MHWWUmeGiwhF6r5ojzDQ1_NZgFOnTzp-2O4GUa6AKM.AgABAwEAAADnfolhJpSnRYB1SVj-Hgd8AgDs_wUA9P9vxHv9js04V5DCrm5ic8jnaOWyV2yllDHRFBwWIpfqhecV9VqG0L3QBXFA66PR9-mt9R7sVYEIq7DL0iw7ENnJ7G_yKFielIQ5KOP0B7JnZ6vvL3Djqo-9jpHEG8K8v_0t4AtiajEwP8gl-ISYB5hYHA4gB3T1geeCYRaByhkKtE6K_GN6yWj4pAJnwue_JUiDfh6N_MAiF9o9fIeRTuNoyR3PY5hu3Q5YKIXsLYU0sLVz30spoOzhi9LHiGYsCsGLPkwsqjTH5unhrE-6ubmxoanNhM_8DLtIZfU61ZOnVsNS7naojSuWsoA-XvDNlcztquISHqkvzfE_WeOw4Pxmtues02dCA7b7JC4Pre9AOCde-16-EfpSy75zHOEJbfJcoC6ASz1odjEvd4i21qrUL8o5f-DQlzhgtyc43YVaRufGfeOsrGyp3z9GEkdnVugBJ8fETYmPhlNRaTtwlZc_x5TzIOUmgmhjZ6lnTver-l0wRgrUtEduJ7Wm1tbi4f9xDQMRNe1xiLdSrO0lBTykZ2bTPNdTBMTogHzMTgiDWWBiyQyWIf4NkICVjTs-2r6mytHPH04skk2dp6Ju9JIz5CII-kgjepHIiVO3WRLjfn0oQBUTRVnHikKIn87k8tYqXoOurfSqooaoFHrtXJKLoTmS-4ehiapg-3Jl3RWhxaDuhjstpFMl9cU4YGsD5EY2H7FjUD6vTRxRrSvhAW5qcfBW8xe-isdvzmBhpw0mrUq32xfWxLNxEgTwzYpTBB5JcZ64HmxEKxfz52lJy1N61TS7dxse93p0sscbB7hGUADMZBgqbTUDTzb-nP1EeN-o",
   },
 ];
 
@@ -79,8 +68,8 @@ class OneDrive implements DriverIF {
 
   private async fetchAccessToken(refreshToken: string): Promise<string> {
     // this.accesstoken =   (refreshToken):string => {
-    const client_id = "0a2991a3-1674-4334-8561-671cc7349960";
-    const client_secret = "uw67Q~TCMqdJyH35hlcHHclv~mhNOGx.jfPFm";
+    const client_id = "5f43c33c-66cd-4e01-9d3c-e9fb63b81946";
+    const client_secret = "Lbv8Q~k_v-XzDy.M2xZS5bFlCqS4bdJKS-mPfam7";
     const redirect_uri = "https://alist.nn.ci/tool/onedrive/callback";
     const token_url =
       "https://login.microsoftonline.com/common/oauth2/v2.0/token";
